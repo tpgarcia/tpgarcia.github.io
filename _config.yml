@@ -7,17 +7,6 @@ email:              "tpgarcia@stat.tamu.edu"
 gravatar_hash:      "9179ca26a6ca8a926e65a0cbf31eb862"
 email:              "tpgarcia@stat.tamu.edu"
 github:             "tpgarcia"
-
-background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
-
-paginate:           5
-paginate_path:      "/page:num/"
-
-baseurl:            ""
-permalink:          /:year/:month/:day/:title/
-
-markdown:           kramdown
-
 nav:
   - name:           "About"
     href:           "/"
@@ -33,6 +22,19 @@ nav:
     href:           "/teaching.html"
   - name:           "CV"
     href:           "images/Garcia_CV_5.pdf"
+
+
+
+background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
+
+paginate:           5
+paginate_path:      "/page:num/"
+
+baseurl:            ""
+permalink:          /:year/:month/:day/:title/
+
+markdown:           kramdown
+
 
 
 sass:
