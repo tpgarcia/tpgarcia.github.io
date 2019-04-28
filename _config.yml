@@ -1,18 +1,14 @@
-name:               "Ink"
-description:        "A minimalistic jekyll theme for humans"
+name:               "Tanya P. Garcia"
+description:        "Webpage for Tanya P. Garcia"
 
-url:                ""
-author:             "thinker3197"
-email:              "jhondoe@abc.com"
+url:                "https://tpgarcia.github.io"
+author:             "Tanya P. Garcia"
+email:              "tpgarcia@stat.tamu.edu"
 gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
-twitter:            "jhondoe"
-email:              "jhondoe@abc.com"
-github:             "jhondoe"
-pinterest:          "jhondoe"
-linkedin:           "jhondoe"
-facebook:           "jhondoe"
+email:              "tpgarcia@stat.tamu.edu"
+github:             "tpgarcia"
 
-disqus_shortname:   "thinker3197"
+disqus_shortname:   "tpgarcia"
 
 background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
