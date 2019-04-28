@@ -21,7 +21,7 @@ nav:
   - name:           "About"
     href:           "/"
   - name:           "Publications"
-    href:           "/publications"
+    href:           "/publications.md"
   - name:           "Funding"
     href:           "/funding"
   - name:           "Research Team"
