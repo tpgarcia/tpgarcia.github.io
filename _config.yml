@@ -19,17 +19,17 @@ markdown:           kramdown
 
 nav:
   - name:           "About"
-    href:           ""
+    href:           "/about"
   - name:           "Publications"
-    href:           "/publications.html"
+    href:           "/publications"
   - name:           "Funding"
-    href:           "/funding.html"
+    href:           "/funding"
   - name:           "Research Team"
-    href:           "/research-team.html"
+    href:           "/research-team"
   - name:           "Joining the Team"
-    href:           "/research-requirements.html"
+    href:           "/research-requirements"
   - name:           "Teaching"
-    href:           "/teaching.html"
+    href:           "/teaching"
   - name:           "CV"
     href:           "images/Garcia_CV_5.pdf"
 
