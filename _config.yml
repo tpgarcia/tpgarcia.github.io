@@ -1,10 +1,9 @@
 name:               "Tanya P. Garcia"
-description:        "Webpage for Tanya P. Garcia"
+description:        "Tanya P. Garcia"
 
 url:                "https://tpgarcia.github.io"
 author:             "Tanya P. Garcia"
 email:              "tpgarcia@stat.tamu.edu"
-gravatar_hash:      "205e460b479e2e5b48aec07710c08d50"
 email:              "tpgarcia@stat.tamu.edu"
 github:             "tpgarcia"
 
@@ -22,9 +21,9 @@ markdown:           kramdown
 
 nav:
   - name:           "About"
-    href:           "/about"
-  - name:           "Download"
-    href:           "/releases"
+    href:           "/about.html"
+  - name:           "Publications"
+    href:           "/publications.html"
 
 sass:
   style:            :compressed
