@@ -19,7 +19,7 @@ markdown:           kramdown
 
 nav:
   - name:           "About"
-    href:           "/about"
+    href:           "/"
   - name:           "Publications"
     href:           "/publications"
   - name:           "Funding"
