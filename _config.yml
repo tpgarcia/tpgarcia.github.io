@@ -21,7 +21,7 @@ nav:
   - name:           "Teaching"
     href:           "/teaching"
   - name:           "CV"
-    href:           "images/Garcia_CV_5.pdf"
+    href:           "/images/Garcia_CV_5.pdf"
 email:              "tpgarcia@stat.tamu.edu"
 github:             "tpgarcia"
 
