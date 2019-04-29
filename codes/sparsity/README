@@ -1,0 +1,34 @@
+Codes for ``Identification of Important Regressor Groups, Subgroups, and Individuals via Regularization Methods: 
+Application to Gut Microbiome Data''
+
+1. simulations : directory containing simulation study
+(a). simulations.R : main file to run study. This is set up to run 1 simulation for the proposed algorithm, with 2 repeated 10-fold cross validations. In the manuscript, we run 100 repeats of cross-validation.
+
+(b). This folder also already contains the output that simulations.R will generate. Look at simulations.Rout for a summary of the results.
+
+2. Cpp_code: directory of C++ codes
+(a). mylin.dll: executable file made from subgSGL.cpp; this is used to run C++ code in R
+
+(b). subSGL.cpp : C++ code of proposed algorithm in Section 2.2.1
+
+
+
+
+3. main: directory of R codes used to run simulations
+(a). main_code.R : main functions used by the simulation study including the seven variable selection techniques
+      proposed in the paper.
+
+(b). simulation_study_common_parameters.R: contains parameters used in simulation study.
+
+(c). simulation_study_main_sub_group.R : function setup to run the simulation study.
+
+(d). call_simulation_study.R : function that calls simulations study
+
+(e). subgroup_SGL.R : R code that calls C++ implementation (subSGL.cpp) of proposed algorithm in Section 2.2.1
+
+(f). mySGLcode.R : version of Simon et al.~(2012) code
+
+(g). simulation_study_table_results.R : output from simulation study
+
+
+

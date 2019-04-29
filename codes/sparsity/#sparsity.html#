@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+   Design by Free CSS Templates
+   http://www.freecsstemplates.org
+   Released for free under a Creative Commons Attribution 2.5 License
+   
+   Name       : Pollination  
+   Description: A two-column, fixed-width design with dark color scheme.
+   Version    : 1.0
+   Released   : 20100925
+   
+  -->
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title> Tanya P. Garcia</title>
+    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="logo">
+	<h1 class="firstp"><a href="#"> Tanya P. Garcia </a></h1>
+      </div>
+      <div id="menu">
+	<ul>
+	  <li><span><a href="index.html">Home</a></span></li>
+	  <li><a href="publications.html">Publications</a></li>
+	  <li ><a href="honors.html">Honors</a></li>
+	  <!--<li><a href="research.html">Research Experience</a></li>-->
+	  <li><a href="teaching.html">Teaching</a></li>
+	  <li><a href="links.html">Collaborators</a></li>
+	  <li><a href="CV/Garcia_CV.pdf" target="_blank">CV</a></li>
+	  
+	</ul>
+      </div>
+      <!-- end #menu -->
+      <div id="header">
+      </div>
+      <!-- end #header -->
+      <div id="page">
+	<div id="page-bgtop">
+	  <div id="page-bgbtm">
+	    <div id="content">
+	      <div class="post">
+		<h4 class="title"><a href="#"><strong>R Codes for Sparsity Group-Subgroup Lasso</strong></a></h4> 
+		<div class="post">
+		  <p> R code can be downloaded <a href="sparsity.tar.gz" target="_blank">here</a>. For further instructions see README.
+		  </p>
+		</div>
+		<!-- end #content -->
+		<div style="clear: both;">&nbsp;</div>
+	      </div>
+	    </div>
+	  </div>
+	  <!-- end #page -->
+	</div>
+	<div id="footer">
+	  <p>Copyright (c) 2012 Tanya P. Garcia. All rights reserved. Design by <a href="http://www.freecsstemplates.org/"> CSS Templates</a>.</p>
+	</div>
+	<!-- end #footer -->
+      </div>
+    </div>
+  </body>
+</html>
+
