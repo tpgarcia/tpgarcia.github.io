@@ -1,0 +1,7 @@
+Codes for ``Structured Variable Selection with q-values''
+
+1. qw_simulation_study.R : main code to run.  File is set up to generate tables in A.1 and A.2 of Supplementary Material.
+
+2. qw_simulation_study.R : function to run entire simulation study. This function is called by `qw_simulation_study.R'
+
+3. qw_main_functions.R : main functions used by the simulation study including q-weighted Lasso and data-driven method for choosing optimal delta value.
