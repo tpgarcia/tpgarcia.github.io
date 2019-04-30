@@ -1,16 +1,28 @@
 name:               "Garcia Research Group"
 description:        "Tanya P. Garcia's Research Group"
 
-url:                "https://tpgarcia.github.io"
-author:             "Tanya P. Garcia"
-gravatar_hash:      "9179ca26a6ca8a926e65a0cbf31eb862"
+
+author:
+  name: "Tanya P. Garcia"
+  gravatar_hash:      "9179ca26a6ca8a926e65a0cbf31eb862"
+  bio: "Garcia Research Lab"
+  location: "Somewhere"
+  links:
+    - label: "Github"
+      icon: "fas fa-fw fa-link"
+      url: "https://github.com/tpgarcia"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
 
 sidebar:
   nav: "docs"
-
-github:             "tpgarcia"
-
-
 
 background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
@@ -36,5 +48,14 @@ defaults:
       sidebar:
         nav: "docs"
 
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      author_profile: true
+      
 gems:
   - jekyll-paginate
