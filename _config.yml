@@ -26,20 +26,15 @@ markdown:           kramdown
 
 sass:
   style:            :compressed
-
+  
 defaults:
-  -
-    scope:
-      path:         ""
-      type:         "pages"
+  # _docs
+  - scope:
+      path: ""
+      type: docs
     values:
-      layout:       "page"
-  -
-    scope:
-      path:         ""
-      type:         "posts"
-    values:
-      layout:       "post"
+      sidebar:
+        nav: "docs"
 
 gems:
   - jekyll-paginate
