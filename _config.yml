@@ -4,6 +4,22 @@ description:        "Tanya P. Garcia's Research Group"
 url:                "https://tpgarcia.github.io"
 author:             "Tanya P. Garcia"
 gravatar_hash:      "9179ca26a6ca8a926e65a0cbf31eb862"
+
+sidebars:
+- lb2_sidebar
+- lb3_sidebar
+- lb4_sidebar
+- contrib_sidebar
+- community_sidebar
+- es_lb2_sidebar
+- fr_lb2_sidebar
+- ja_lb2_sidebar
+- ko_lb3_sidebar
+- ko_lb2_sidebar
+- ru_lb2_sidebar
+- zh_lb2_sidebar
+- pt-br_lb2_sidebar
+
 nav:
   - name:           "Welcome"
     href:           "/"
