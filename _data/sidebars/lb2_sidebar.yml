@@ -1,0 +1,21 @@
+title: LoopBack 3.x
+url: index.html
+children:
+
+- title: 'Installation'
+  url: Installation.html
+  output: 'web, pdf'
+  children:
+
+  - title: 'Installation troubleshooting'
+    url: Installation-troubleshooting.html
+    output: 'web, pdf'
+
+- title: '3.0 Release Notes'
+  url: 3.0-Release-Notes.html
+  output: 'web, pdf'
+
+- title: 'Migrating apps to v3'
+  url: Migrating-to-3.0.html
+  output: 'web, pdf'
+...
