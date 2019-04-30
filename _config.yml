@@ -2,27 +2,28 @@ name:               "Garcia Research Group"
 description:        "Tanya P. Garcia's Research Group"
 
 
-author:
-  name: "Tanya P. Garcia"
-  gravatar_hash:      "9179ca26a6ca8a926e65a0cbf31eb862"
-  bio: "Garcia Research Lab"
-  location: "Somewhere"
-  links:
-    - label: "Github"
-      icon: "fas fa-fw fa-link"
-      url: "https://github.com/tpgarcia"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+author:             "Tanya P. Garcia"
+gravatar_hash:      "9179ca26a6ca8a926e65a0cbf31eb862"
+github:             "tpgarcia"
 
-sidebar:
-  nav: "docs"
+nav:
+  - name:           "Welcome"
+    href:           "/"
+  - name:           "About"
+    href:           "/about"
+  - name:           "Publications"
+    href:           "/publications"
+  - name:           "Funding"
+    href:           "/funding"
+  - name:           "Research Team"
+    href:           "/research-team"
+  - name:           "Joining the Team"
+    href:           "/research-requirements"
+  - name:           "Teaching"
+    href:           "/teaching"
+  - name:           "CV"
+    href:           "/images/Garcia_CV_5.pdf"
+
 
 background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
@@ -35,27 +36,24 @@ permalink:          /:year/:month/:day/:title/
 markdown:           kramdown
 
 
+defaults:
+  -
+    scope:
+      path:         ""
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      path:         ""
+      type:         "posts"
+    values:
+      layout:       "post"
+
 
 sass:
   style:            :compressed
   
-defaults:
-  # _docs
-  - scope:
-      path: ""
-      type: docs
-    values:
-      sidebar:
-        nav: "docs"
-
-
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      author_profile: true
       
 gems:
   - jekyll-paginate
