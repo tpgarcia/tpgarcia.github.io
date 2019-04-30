@@ -6,26 +6,8 @@ author:             "Tanya P. Garcia"
 gravatar_hash:      "9179ca26a6ca8a926e65a0cbf31eb862"
 
 sidebar:
-  title: "Sample Title"
-  nav: sidebar-sample
-  
-nav:
-  - name:           "Welcome"
-    href:           "/"
-  - name:           "About"
-    href:           "/about"
-  - name:           "Publications"
-    href:           "/publications"
-  - name:           "Funding"
-    href:           "/funding"
-  - name:           "Research Team"
-    href:           "/research-team"
-  - name:           "Joining the Team"
-    href:           "/research-requirements"
-  - name:           "Teaching"
-    href:           "/teaching"
-  - name:           "CV"
-    href:           "/images/Garcia_CV_5.pdf"
+  nav: "docs"
+
 github:             "tpgarcia"
 
 
