@@ -25,7 +25,6 @@ nav:
     href:           "/images/Garcia_CV_5.pdf"
 
 
-background:         "http://apple.wallpapersfine.com/wallpapers/original/1242x2208/w-5273.jpg"
 
 paginate:           5
 paginate_path:      "/page:num/"
