@@ -116,7 +116,6 @@ ol {
     padding-left: 0;
     li {
         margin-bottom: .25rem;
-        margin: 10px 0;
     }
     ul,
     ol {
@@ -124,6 +123,11 @@ ol {
         margin-bottom: .5rem;
     }
 }
+
+ol > li::marker {
+  font-weight: bold;
+}
+
 
 p + h1,
 p + h2,
