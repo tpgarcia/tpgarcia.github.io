@@ -19,6 +19,8 @@ nav:
     href:           "/lab-news"
   - name:           "Joining the Lab"
     href:           "/research-requirements"
+  - name:           "Funding"
+    href:           "/funding"
   - name:           "CV"
     href:           "/images/Garcia_CV_7.pdf"
 
