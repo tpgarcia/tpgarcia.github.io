@@ -15,6 +15,8 @@ nav:
     href:           "/publications"
   - name:           "Research Lab"
     href:           "/research-team"
+  - name:           "Postdoc Position"
+    href:           "/postdoctoral-ad"
   - name:           "Lab News"
     href:           "/lab-news"
   - name:           "Joining the Lab"
