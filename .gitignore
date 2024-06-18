@@ -8,3 +8,5 @@ node_modules
 .sass-cache
 .ruby-version
 .Rproj.user
+.Rhistory
+tpgarcia.github.io.Rproj
