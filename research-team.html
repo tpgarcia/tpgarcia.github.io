@@ -31,6 +31,16 @@ layout: default
 }
 
 
+.container {
+    width: 200px;
+    height: 120px;
+}
+
+/* Resize images */
+.container img {
+    width: 100%;
+    height: auto;
+}
 
 img.one {
   height: auto;
@@ -515,15 +525,20 @@ November 2024: Labsgiving 2024!
 </center>
 
 <center>
-<img src="/images/bios-75.jpg" style="display:inline-block;">
+<div class="container">
+    <img src="/images/bios-75.jpg" />
+</div>
 
-<img src="/images/brian-bios-75.jpg"  style="display:inline-block;">
+<div class="container">
+    <img src="brian-bios-75.jpg" />
+</div>
 </center>
 <center>
 <p style="margin-bottom:1cm;">
 November 2024: Celebration at the UNC Biostatistics 75th Anniversary!
 </p>
 </center>
+
 
 
 <center>
