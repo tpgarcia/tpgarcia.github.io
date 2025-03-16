@@ -23,7 +23,8 @@ nav:
     href:           "/funding"
   - name:           "CV"
     href:           "/images/Garcia_CV_8.pdf"
-
+  - name:           "Coaching"
+    href:           "/images/coaching-profiles.pdf"
 
 
 paginate:           5
